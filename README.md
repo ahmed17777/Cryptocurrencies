@@ -3,6 +3,8 @@
 Syed Ahmed 
 June 28, 2021
 
+![20191217200727-6Crypto-696x464](https://user-images.githubusercontent.com/45697471/123697851-62efad00-d82b-11eb-850a-a97eaac52db5.jpeg)
+
 ## Overview 
 
 This project utilizes unsupervised machine learning to create an analysis of the cryptocurrency market for Accountability Accounting. I will be preprocessing the data, using a clustering algorithm, and reducing dimensions in the dataset using Principal Component Analysis.
