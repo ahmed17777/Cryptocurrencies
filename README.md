@@ -38,6 +38,29 @@ Once the data was preprocessed, I used the PCA algorithm to reduce the dimension
 
 ### Clustering Cryptocurrencies using K-means 
 
+Here, my task was to use the K-means algorithm to create an elbow curve using hvPlot so we can find the best value for K. This will tell us the optimal numbers of clusters to use for our analysis. 
+
+  ![3](https://user-images.githubusercontent.com/45697471/123693716-66cd0080-d826-11eb-8299-68e71623dd27.png)
+  
+From this curve, we decide the optimal value of clusters is k = 4. From here, I made predictions using the K-means algorithm and added them to the dataframe. 
+
+### Visualizing Cryptocurrencies Results 
+
+Using scatter plots and 3D plots, I visuzlied the distinct groups that correspond to the three principal components we created, and create a table with all the currently tradeable cryptocurrencies. 
+
+  ![4](https://user-images.githubusercontent.com/45697471/123695857-130fe680-d829-11eb-8144-3b010b28384c.png)
+
+This 3D plot was created to visualize the three clusters we had formed using PCA and the names of the coins, and some information associated with the cryptocoins. 
+
+  ![5](https://user-images.githubusercontent.com/45697471/123696609-e6100380-d829-11eb-8d61-a27b689b24b2.png)
+  
+Next, I created a hvplot.table() table that shows the tradeable cryptocurrencies based on our analysis so far. 
+
+  
+
+  
+
+
 
 
 
