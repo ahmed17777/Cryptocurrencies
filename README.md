@@ -56,7 +56,16 @@ This 3D plot was created to visualize the three clusters we had formed using PCA
   
 Next, I created a hvplot.table() table that shows the tradeable cryptocurrencies based on our analysis so far. 
 
-  
+![6](https://user-images.githubusercontent.com/45697471/123696859-3ab37e80-d82a-11eb-9399-47791035a662.png)
+
+And finally, I created a scatter plot which shows the relationship between Total Coin Supply and Total Coins Mined, ordered by class based on our clusters. 
+
+## Summary 
+
+In this analysis, we identified 532 cryptocurrencies that are tradeable by classifying the similarity of their features. This will give Martha's investment bank a better understanding of the different types of coins and how they can be classified, which can be used by the bank to perform further analysis to determine their performance and make picks for which coins to invest in. 
+
+### Contact 
+Email: mishaal22s@gmail.com
 
   
 
