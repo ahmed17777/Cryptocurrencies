@@ -19,7 +19,7 @@ All data used in this analysis is from crypto_data.csv, which was retrieved from
 
 ### Preprocessing 
 
-Our first task was to view the raw data and preprocess it in order to perfrom PCA. The following is the DataFrame that was created after performing the following: 
+My first task was to view the raw data and preprocess it in order to perfrom PCA. This is the DataFrame that was created after performing the following: 
 - All cryptocurrencies that are not being traded are removed 
 - The IsTrading column is dropped 
 - All the rows that have at least one null value are removed 
@@ -28,8 +28,17 @@ Our first task was to view the raw data and preprocess it in order to perfrom PC
 
   ![1](https://user-images.githubusercontent.com/45697471/123692046-5a47a880-d824-11eb-8284-78af221d5ce1.png)
   
- From here, the get_dummies() method was used to create variables for the text features to be used in PCA. The variables were also standardized using the StandardScaler fit_transfrom() function. 
+From here, the get_dummies() method was used to create a dataframe with variables for the text features to be used in PCA. The variables were also standardized using the StandardScaler fit_transfrom() function. 
  
 ### Dimension Reduction using PCA
+
+Once the data was preprocessed, I used the PCA algorithm to reduce the dimensions of the dataframe created in the previous step to three principal components. Here is the dataframe that was created after this was done: 
+
+  ![2](https://user-images.githubusercontent.com/45697471/123693263-d7bfe880-d825-11eb-97ac-9b9cf01d4637.png)
+
+### Clustering Cryptocurrencies using K-means 
+
+
+
 
 
